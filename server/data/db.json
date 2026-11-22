@@ -1,0 +1,730 @@
+{
+  "administrators": [
+    {
+      "id": "admin-1",
+      "username": "elysee_admin",
+      "email": "director@atelier-elysee.com",
+      "passwordHash": "atelier2025!",
+      "fullName": "Éléonore de Vauquelin",
+      "role": "Principal & Director"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "slug": "the-haussmann-pavilion",
+      "title": "The Haussmann Pavilion",
+      "subtitle": "Reimagining classic 19th-century proportions for serene contemporary living",
+      "category": "Residential",
+      "location": "Paris, 8th Arrondissement",
+      "year": 2025,
+      "area": "340 m²",
+      "featured": true,
+      "coverImage": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85",
+      "galleryImages": [
+        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "concept": "A contemplative dialogue between historical heritage and radical architectural minimalism. The design strips back layers of decorative additions to celebrate the soaring 4.2-meter ceiling heights, monumental crown mouldings, and restored chevron oak parquet, contrasted by monolithic travertine blocks and unlacquered burnished bronze.",
+      "materials": [
+        "Roman Silver Travertine",
+        "French Chevron White Oak",
+        "Hand-applied Lime Wash (Chaux)",
+        "Unlacquered Aged Bronze",
+        "Belgian Raw Linen",
+        "Calacatta Viola Marble"
+      ],
+      "clientBrief": "The clients, an art collector and a private equity director, sought a home that serves as both a tranquil sanctuary from urban intensity and a curated gallery for their collection of Post-War abstract canvases and Brutalist ceramics.",
+      "challengeSolution": "The primary challenge lay in re-organizing a fragmented 1890 floor plan without altering the listed perimeter walls. We introduced a central sculptural monolith in fluted travertine that discretely conceals a guest suite, wine cellar, and state-of-the-art climate control, while guiding natural light through double-height steel-framed glass portals.",
+      "beforeImage": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1400&q=80",
+      "afterImage": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85",
+      "testimonialQuote": "Atelier Élysée transformed an overwhelming historical apartment into a breathable, meditative composition of light and stone. Every morning here feels like an unhurried reverie.",
+      "testimonialAuthor": "Antoine & Sylvie de Montalembert",
+      "createdAt": "2025-02-14T10:00:00Z"
+    },
+    {
+      "id": "proj-2",
+      "slug": "residence-montecito",
+      "title": "Montecito Coastal Retreat",
+      "subtitle": "Warm modernist villa grounded in earthen textures and ocean light",
+      "category": "Residential",
+      "location": "Montecito, California",
+      "year": 2024,
+      "area": "620 m²",
+      "featured": true,
+      "coverImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85",
+      "galleryImages": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "concept": "Grounded in the terrain of the Santa Ynez foothills, this residence celebrates natural continuity between interior and landscape. Broad spans of floor-to-ceiling pocketing glazing dissolve boundaries, framed by hand-rammed earth walls, bleached white oak millwork, and monolithic basalt counters.",
+      "materials": [
+        "Local Rammed Earth",
+        "Bleached American White Oak",
+        "Honed Basalt Stone",
+        "Custom Bouclé Upholstery",
+        "Brushed Gunmetal Hardware"
+      ],
+      "clientBrief": "Create an effortlessly luxurious family home that withstands coastal elements while exuding timeless quietude and warmth.",
+      "challengeSolution": "By lowering the formal living room into a sun-dappled sunken conversation lounge surrounded by textured earthen walls, we created an intimate anchor point inside an expansive 600-square-meter floor plan.",
+      "beforeImage": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1400&q=80",
+      "afterImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=85",
+      "testimonialQuote": "The house feels alive with the changing light. The team understood our family rhythm completely—creating something monumental yet profoundly comfortable.",
+      "testimonialAuthor": "Harrison & Clara Vance",
+      "createdAt": "2024-11-08T14:30:00Z"
+    },
+    {
+      "id": "proj-3",
+      "slug": "atelier-lumier-tribeca",
+      "title": "Lumière Design Studio & Gallery",
+      "subtitle": "Architectural cast-iron loft converted into a creative sanctuary and flagship atelier",
+      "category": "Commercial",
+      "location": "Tribeca, New York",
+      "year": 2025,
+      "area": "480 m²",
+      "featured": true,
+      "coverImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=85",
+      "galleryImages": [
+        "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "concept": "Transforming an authentic 1888 industrial cast-iron warehouse into a tactile spatial experience. Raw structural brickwork is softened with warm lime-wash glazes, blackened steel partitions, acoustic felt ceiling vaults, and custom oak library tables.",
+      "materials": [
+        "Reclaimed White Pine",
+        "Historic Cast Iron Columns",
+        "Warm Microcement Flooring",
+        "Blackened Hot-rolled Steel",
+        "Cognac Saddle Leather"
+      ],
+      "clientBrief": "Design a multifunctional headquarters for a high-end luxury fashion brand, balancing collaborative studio environments with private client fitting salons and an exhibition gallery.",
+      "challengeSolution": "We engineered custom mobile monolithic joinery units on concealed industrial tracks, allowing the main gallery floor to effortlessly transition from an open 100-seat runway presentation into intimate private design pods within minutes.",
+      "beforeImage": "https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&w=1400&q=80",
+      "afterImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1400&q=85",
+      "testimonialQuote": "The response from our global clientele has been overwhelming. The studio captures our brand ethos: timeless craftsmanship, uncompromising material honesty.",
+      "testimonialAuthor": "Julian K., Creative Director",
+      "createdAt": "2025-01-20T09:15:00Z"
+    },
+    {
+      "id": "proj-4",
+      "slug": "palazzo-bellini",
+      "title": "Palazzo Bellini Restoration",
+      "subtitle": "Preserving 17th-century Baroque frescoes within a contemporary private residence",
+      "category": "Renovation",
+      "location": "Palermo, Sicily",
+      "year": 2024,
+      "area": "520 m²",
+      "featured": true,
+      "coverImage": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85",
+      "galleryImages": [
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "concept": "An exacting archival preservation merged with understated contemporary Italian joinery. Damaged gilded stuccos were stabilized by master conservators, framed by bespoke floor planes in terracotta pastellone and clean walnut millwork that floats clear of historic surfaces.",
+      "materials": [
+        "Handcrafted Sicilian Terracotta",
+        "Canaletto Walnut Millwork",
+        "Nembro Rosato Marble",
+        "Linen Sheers & Raw Silks",
+        "Aged Brass Ironmongery"
+      ],
+      "clientBrief": "A heritage preservation project requiring rigorous academic accuracy alongside 21st-century thermal comfort, acoustic seclusion, and luxury amenities.",
+      "challengeSolution": "To prevent trenching into fragile historic stonework, all mechanical, electrical, and geothermal HVAC lines were routed through bespoke raised floating baseboards crafted from matching walnut and brushed brass.",
+      "beforeImage": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1400&q=80",
+      "afterImage": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=85",
+      "testimonialQuote": "Working with Éléonore and her studio was a revelation. They did not just design our home; they resurrected centuries of Mediterranean heritage with peerless sensitivity.",
+      "testimonialAuthor": "Countess Ginevra d’Aquino",
+      "createdAt": "2024-09-12T16:00:00Z"
+    },
+    {
+      "id": "proj-5",
+      "slug": "le-belvedere-alpine-chalet",
+      "title": "Le Belvédère Alpine Chalet",
+      "subtitle": "Monolithic granite and charred larch amidst the Mont Blanc range",
+      "category": "Hospitality",
+      "location": "Megève, French Alps",
+      "year": 2024,
+      "area": "780 m²",
+      "featured": false,
+      "coverImage": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=85",
+      "galleryImages": [
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "concept": "A contemporary take on traditional Savoyard architecture. Massive fireplaces chiselled from local Mont Blanc granite anchor wide open entertaining salons clad in hand-planed larch and Belgian wools.",
+      "materials": [
+        "Bush-hammered Chamonix Granite",
+        "Smoked European Larch",
+        "Heavy Belgian Felt & Cashmere",
+        "Forged Iron Hardware"
+      ],
+      "clientBrief": "Create a private 8-suite ski lodge with spa, indoor vitality pool, and private tasting cellar that redefines alpine luxury without rustic clichés.",
+      "challengeSolution": "We incorporated an underground glass-encased wine cellar carved directly into the mountain bedrock, framed by indirect warm wash lighting that accentuates natural stone stratifications.",
+      "createdAt": "2024-07-05T11:20:00Z"
+    },
+    {
+      "id": "proj-6",
+      "slug": "kyoto-tatami-villa",
+      "title": "The Kyoto Garden Residence",
+      "subtitle": "Meditative spatial sequencing, Hinoki woodcraft, and interior courtyard views",
+      "category": "Residential",
+      "location": "Kyoto, Japan",
+      "year": 2025,
+      "area": "290 m²",
+      "featured": false,
+      "coverImage": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1600&q=85",
+      "galleryImages": [
+        "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "concept": "Designed according to classical Shakkei (borrowed scenery) principles, the residence opens entirely to a moss and bamboo courtyard, incorporating hand-woven rush tatami mats, cedar joinery, and handmade Echizen washi screens.",
+      "materials": [
+        "Natural Hinoki Cedar",
+        "Echizen Washi Paper",
+        "Rush Grass Tatami",
+        "Volcanic Tuff Paving",
+        "Hand-cast Bronze Latches"
+      ],
+      "clientBrief": "A dual-nationality family home balancing traditional Japanese rituals with contemporary entertaining standards.",
+      "challengeSolution": "We devised concealed sliding shoji partitions that slide into hollow wall cavities, allowing the entire living space to expand into an unbroken 30-meter pavilion connecting three secluded courtyard gardens.",
+      "createdAt": "2025-01-10T12:00:00Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "serv-1",
+      "slug": "residential-interior-design",
+      "title": "Residential Interior Design",
+      "subtitle": "Bespoke private sanctuaries tailored to your distinct lifestyle",
+      "shortDescription": "Comprehensive, full-scope interior architecture and styling for luxury private residences, penthouses, and historic estates worldwide.",
+      "fullDescription": "Our turnkey residential design service encompasses the complete transformation of your living spaces. From early concept sketches and spatial reconfigurations to the custom commissioning of artisanal furniture, lighting, and art curation, we orchestrate every detail with unwavering precision.",
+      "includes": [
+        "Complete spatial planning and architectural layout optimization",
+        "Bespoke joinery, kitchen, and bathroom architectural drawings",
+        "Curated finishes, natural stone slabs, and hardwood selections",
+        "Custom furniture commissions from master European ateliers",
+        "Art curation, antique sourcing, and accessory styling",
+        "Full contractor coordination, site supervision, and turnkey handover"
+      ],
+      "suitableFor": [
+        "Private homeowners undertaking major ground-up construction or full interior re-architecture",
+        "Luxury apartment and penthouse acquisitions requiring bespoke personalisation",
+        "Family residences seeking timeless materials that patina gracefully over generations"
+      ],
+      "deliverables": [
+        "3D Photorealistic Architectural Renderings & VR Walkthroughs",
+        "Comprehensive Construction Drawing Packages (MEP, Lighting, Joinery)",
+        "Detailed Material, Appliance, and Fixture Specification Books",
+        "Curated Furniture Procurement and Logistics Schedule"
+      ],
+      "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85",
+      "iconName": "Home"
+    },
+    {
+      "id": "serv-2",
+      "slug": "commercial-interior-design",
+      "title": "Commercial Interior Design",
+      "subtitle": "Branded spatial narratives that captivate and inspire",
+      "shortDescription": "Elevating flagship boutiques, creative executive headquarters, and gallery spaces through intentional material choices and emotive lighting.",
+      "fullDescription": "We translate your brand’s core philosophy into a three-dimensional physical encounter. Our commercial interiors marry high durability and functional ergonomics with the tactile poetry of luxury hospitality, ensuring every client touchpoint is memorable.",
+      "includes": [
+        "Brand immersion, customer journey mapping, and ergonomic flow analysis",
+        "Custom point-of-sale monolithic counters and display architecture",
+        "Acoustic planning, integrated sensory design, and circadian lighting",
+        "High-traffic commercial material testing and longevity assurance",
+        "Brand-aligned finishes and custom hardware fabrication"
+      ],
+      "suitableFor": [
+        "Luxury fashion and jewelry flagship retail environments",
+        "Venture capital, family office, and creative studio headquarters",
+        "Contemporary art galleries, private clubs, and cultural pavilions"
+      ],
+      "deliverables": [
+        "Detailed Circulation Flow Diagrams & Seating Capacities",
+        "Bespoke Millwork & Fixture Manufacturing Drawings",
+        "Lighting Control Matrix & Scene Programming Schedules",
+        "Commercial Regulatory & Accessibility Compliance Documentation"
+      ],
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=85",
+      "iconName": "Building2"
+    },
+    {
+      "id": "serv-3",
+      "slug": "space-planning",
+      "title": "Space Planning & Architecture",
+      "subtitle": "Rigorous volumetric optimization for effortless living",
+      "shortDescription": "Transforming awkward, compartmentalized, or challenging floor plans into harmonious sequences of naturally illuminated volumes.",
+      "fullDescription": "Before selecting a single textile or paint swatch, great design starts with how a room breathes. We dissect circulation lines, daylight vectors, sightlines, and daily human movement to craft intuitive, flowing spatial layouts.",
+      "includes": [
+        "Structural feasibility evaluation and load-bearing partition analysis",
+        "Circulation vector mapping and natural daylight simulation",
+        "Zoning strategy for privacy, acoustics, and collective gatherings",
+        "Storage integration and invisible architectural concealment",
+        "Multiple alternative floor plan iterations with pros and cons"
+      ],
+      "suitableFor": [
+        "Properties with outdated, dark, or fragmented historic layouts",
+        "Open-plan developments needing intelligent zoning and acoustic warmth",
+        "Buyers evaluating prospective property acquisitions prior to purchase"
+      ],
+      "deliverables": [
+        "Dimensioned 1:50 Architectural Floor Plans",
+        "Volumetric Elevation Studies and Sightline Sections",
+        "Natural Sunlight Tracking & Shadow Analysis",
+        "Preliminary Budget & Engineering Feasibility Summary"
+      ],
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
+      "iconName": "Maximize2"
+    },
+    {
+      "id": "serv-4",
+      "slug": "furniture-and-styling",
+      "title": "Furniture & Curated Styling",
+      "subtitle": "The finishing poetry: rare textiles, vintage icons, and bespoke objects",
+      "shortDescription": "Elevating existing architectural shells through masterfully curated furnishings, heirloom antiques, custom upholstery, and sculptural lighting.",
+      "fullDescription": "Even exceptional architecture remains unfulfilled without the emotional layer of texture and warmth. Our styling atelier sources rare mid-century design pieces, commissions one-off handwoven tapestries, and tailors custom upholstery.",
+      "includes": [
+        "Custom upholstery design with organic linens, bouclés, and vegetable-tanned leathers",
+        "Global vintage and antique market sourcing (Paris flea markets, Milan, Kyoto)",
+        "Custom rug design hand-knotted in Nepal and Morocco",
+        "Architectural lighting fixtures, table lamps, and sculpture placement",
+        "White-glove delivery, placement, and final accessorizing styling day"
+      ],
+      "suitableFor": [
+        "Clients whose architectural build is finished but lacks warmth and personality",
+        "Design collectors seeking authenticated mid-century and contemporary gallery pieces",
+        "Properties being prepared for architectural photography or editorial publication"
+      ],
+      "deliverables": [
+        "Curated Moodboards & Material Swatch Sample Boxes",
+        "Comprehensive Furnishing Specification & Sourcing Catalog",
+        "Logistics, Customs, and White-Glove Installation Timeline",
+        "Art and Sculptural Object Placement Guide"
+      ],
+      "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85",
+      "iconName": "Sparkles"
+    },
+    {
+      "id": "serv-5",
+      "slug": "interior-renovation",
+      "title": "Historic & Contemporary Renovation",
+      "subtitle": "Honoring architectural provenance through meticulous restoration",
+      "shortDescription": "Specialized rehabilitation of period properties, Haussmannian apartments, townhouses, and mid-century modern gems.",
+      "fullDescription": "Renovating historic structures demands deep reverence for original craft combined with progressive mechanical engineering. We collaborate with master plasterers, stone carvers, and timber restorers to revive historic souls.",
+      "includes": [
+        "Archival research and historical architectural detail documentation",
+        "Restoration of original boiserie, stuccos, fireplaces, and parquet floors",
+        "Invisible integration of modern HVAC, underfloor heating, and smart automation",
+        "Heritage council and historical building permit approvals",
+        "Full contractor tender management and on-site construction oversight"
+      ],
+      "suitableFor": [
+        "Owners of listed heritage apartments, palazzos, and historical villas",
+        "Investors revitalizing neglected historic buildings with high upside potential",
+        "Discerning patrons who prioritize preservation over quick cosmetic facelifts"
+      ],
+      "deliverables": [
+        "Historical Condition Report and Conservation Strategy",
+        "Detailed Demolition and Preservation Marking Plans",
+        "Mechanical & Electrical Concealment Details",
+        "Full Site Supervision Reports and Contractor Quality Audits"
+      ],
+      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=85",
+      "iconName": "RotateCcw"
+    },
+    {
+      "id": "serv-6",
+      "slug": "design-consultation",
+      "title": "Advisory & Design Consultation",
+      "subtitle": "Direct creative counsel with our founding principals",
+      "shortDescription": "Intensive strategic workshops to unlock spatial challenges, validate developer plans, or curate signature material palettes.",
+      "fullDescription": "For clients who require focused, high-level creative direction without committing to an eighteen-month construction management contract. We offer targeted advisory sessions in our Paris atelier or on-site worldwide.",
+      "includes": [
+        "Two-hour intensive concept and layout review with a Studio Principal",
+        "On-the-spot sketching and spatial problem-solving",
+        "Material palette review and physical stone/wood/textile pairing",
+        "Contractor estimate audit and feasibility sanity check",
+        "Written action summary report delivered within 48 hours"
+      ],
+      "suitableFor": [
+        "Homeowners seeking second opinions before signing major contractor contracts",
+        "Real estate developers requiring pre-construction interior vision and branding",
+        "Clients needing focused guidance on lighting, color direction, or art placement"
+      ],
+      "deliverables": [
+        "Detailed Consultation Summary Dossier",
+        "Annotated Floor Plan Sketches and Spatial Recommendations",
+        "Curated Vendor & Artisan Resource Recommendations",
+        "Follow-up Q&A and Concept Clarification Access"
+      ],
+      "image": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=85",
+      "iconName": "Compass"
+    }
+  ],
+  "articles": [
+    {
+      "id": "art-1",
+      "slug": "the-quiet-luxury-of-tactility",
+      "title": "The Quiet Luxury of Tactility: Living with Raw Travertine and French Oak",
+      "excerpt": "In an era dominated by smooth glass screens and uniform synthetic surfaces, the true luxury of a home resides in materials that speak back through texture, weight, and honest imperfection.",
+      "category": "Materiality",
+      "readTime": "6 min read",
+      "publishedDate": "January 14, 2025",
+      "authorName": "Éléonore de Vauquelin",
+      "authorRole": "Founder & Principal Architect",
+      "coverImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85",
+      "published": true,
+      "tags": [
+        "Travertine",
+        "Materiality",
+        "Natural Stone",
+        "Philosophy",
+        "Craftsmanship"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "When we walk barefoot across a honed silver travertine floor on a cool morning, or run our fingertips over the fibrous grain of unlacquered quarter-sawn French oak, something subtle yet profound shifts in our physiological state. We are grounded in the physical reality of the earth."
+        },
+        {
+          "type": "heading",
+          "text": "The Honesty of Porosity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Travertine is geological memory captured in stone. Formed by rapid precipitation of calcium carbonate at hot springs and geothermal geysers, its natural cavities and sediment striations are not defects to be filled with opaque epoxy; they are the rhythmic signature of mineral history. In our projects, we celebrate these open veins, opting for brushed or honed satin finishes rather than reflective high polishes."
+        },
+        {
+          "type": "quote",
+          "text": "A home should not be an antiseptic museum of untouched perfection, but an organic landscape that receives the patina of daily life with grace."
+        },
+        {
+          "type": "paragraph",
+          "text": "Similarly, French oak possesses a biological warmth that synthetic laminates can never emulate. The tannins within genuine oak react over decades to sunlight and humidity, developing a silver-grey or honey-toned sheen that deepens with every season."
+        },
+        {
+          "type": "heading",
+          "text": "Designing for the Senses Beyond the Eye"
+        },
+        {
+          "type": "paragraph",
+          "text": "Too often, contemporary interior design is conceived exclusively for two-dimensional photography—a visual spectacle designed to capture fleeting attention on social feeds. At Atelier Élysée, we prioritize acoustics, temperature, scent, and hand-feel. When a room sounds serene because natural lime-wash plaster absorbs harsh acoustic reflections, the luxury is unmistakable."
+        }
+      ]
+    },
+    {
+      "id": "art-2",
+      "slug": "restraint-as-an-art",
+      "title": "Restraint as an Art: Why the Most Luxurious Spaces Whisper Rather Than Shout",
+      "excerpt": "True sophistication does not scream for validation. It reveals itself in proportional harmony, shadow, and the courage to leave walls unencumbered.",
+      "category": "Design Philosophy",
+      "readTime": "5 min read",
+      "publishedDate": "February 2, 2025",
+      "authorName": "Julian Vance",
+      "authorRole": "Design Director",
+      "coverImage": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85",
+      "published": true,
+      "tags": [
+        "Minimalism",
+        "Proportion",
+        "Architecture",
+        "Simplicity"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "There is a common misconception that luxury equates to abundance—more mouldings, more gold leaf, more intricate joinery, more layers. Yet historically, the most celebrated architectural masterworks, from Japanese tea pavilions to Cistercian monasteries, have derived their emotional resonance from radical reduction."
+        },
+        {
+          "type": "heading",
+          "text": "The Power of Negative Space"
+        },
+        {
+          "type": "paragraph",
+          "text": "Negative space is not empty space; it is spatial breath. An unadorned plaster wall washed by afternoon daylight allows a single sculptural olive tree or a patinated bronze bowl to possess genuine gravitas. When every surface is screaming for attention, nothing is heard."
+        },
+        {
+          "type": "quote",
+          "text": "Simplicity is not the starting point. It is the hard-won culmination of removing everything that does not contribute to harmony."
+        },
+        {
+          "type": "paragraph",
+          "text": "When we strip away extraneous ornamentation, our attention naturally fixes on the caliber of execution. An unadorned doorway demands that the reveal line be flawless; a monolithic stone island requires that the mitred corners align to within a tenth of a millimeter. Restraint is the ultimate test of craftsmanship."
+        }
+      ]
+    },
+    {
+      "id": "art-3",
+      "slug": "the-haussmannian-dialogue",
+      "title": "The Haussmannian Dialogue: Marrying 19th-Century Plasterwork with Minimalist Modernity",
+      "excerpt": "A practical and philosophical guide to renovating historic European apartments without erasing their soul or succumbing to museum-like stagnation.",
+      "category": "Architecture",
+      "readTime": "8 min read",
+      "publishedDate": "February 20, 2025",
+      "authorName": "Camille Laurent",
+      "authorRole": "Materials & Joinery Specialist",
+      "coverImage": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85",
+      "published": true,
+      "tags": [
+        "Haussmann",
+        "Renovation",
+        "Paris",
+        "Plasterwork",
+        "Heritage"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Baron Georges-Eugène Haussmann redefined Paris between 1853 and 1870, creating an urban typology characterized by ashlar stone facades, continuous wrought-iron balconies, and interiors adorned with intricate plaster rosettes and chevron parquet. Today, living in these spaces requires a thoughtful balance between preservation and contemporary functionality."
+        },
+        {
+          "type": "heading",
+          "text": "The Non-Interference Principle"
+        },
+        {
+          "type": "paragraph",
+          "text": "When intervening in a listed historic apartment, our philosophy is rooted in reversibility and visual autonomy. Rather than mimicking historical mouldings in new partition walls, we clearly differentiate new contemporary interventions through modern material expressions: blackened steel, monolithic unpolished marble, and floating walnut joinery."
+        },
+        {
+          "type": "quote",
+          "text": "History becomes vibrant not when we freeze it in amber, but when we invite it into dialogue with contemporary life."
+        },
+        {
+          "type": "paragraph",
+          "text": "By keeping modern cabinetry floating slightly above the floor and terminating millwork below the original ceiling cornices, the historic volume remains legible in its entirety. The dialogue between the 19th and 21st centuries becomes an active source of daily pleasure."
+        }
+      ]
+    },
+    {
+      "id": "art-4",
+      "slug": "light-as-matter",
+      "title": "Light as Matter: Sculpting Volumetric Shadows in Modern Residential Architecture",
+      "excerpt": "Architectural lighting should not simply illuminate darkness; it should reveal form, sculpt volume, and create an emotional rhythm across the day.",
+      "category": "Space Planning",
+      "readTime": "5 min read",
+      "publishedDate": "March 1, 2025",
+      "authorName": "Julian Vance",
+      "authorRole": "Design Director",
+      "coverImage": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1600&q=85",
+      "published": true,
+      "tags": [
+        "Lighting",
+        "Shadow",
+        "Volumetric",
+        "Circadian"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In his timeless essay In Praise of Shadows, Jun’ichirō Tanizaki writes that beauty does not exist in the object itself, but in the patterns of shadows, the light and the darkness, that one object creates against another. Modern architecture too frequently relies on aggressive, glaring ceiling spotlights that obliterate nuance."
+        },
+        {
+          "type": "heading",
+          "text": "The Three-Tier Illumination Strategy"
+        },
+        {
+          "type": "paragraph",
+          "text": "We approach illumination in three distinct architectural layers: Low-level perimeter graze, mid-level focal warmth, and soft ambient reflection. By washing an earthen plaster wall with low-angle warm light (2400K–2700K), we emphasize the subtle undulations of the hand-troweled surface while keeping glare entirely out of the line of sight."
+        }
+      ]
+    },
+    {
+      "id": "art-5",
+      "slug": "curating-an-heirloom-palette",
+      "title": "Curating an Heirloom Palette: Timeless Earth Tones for 2026 and Beyond",
+      "excerpt": "Moving past ephemeral color trends toward grounded earth pigments: raw umber, warm chalk, limestone, burnt sienna, and oxidized bronze.",
+      "category": "Curated Living",
+      "readTime": "7 min read",
+      "publishedDate": "March 18, 2025",
+      "authorName": "Éléonore de Vauquelin",
+      "authorRole": "Founder & Principal Architect",
+      "coverImage": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=85",
+      "published": true,
+      "tags": [
+        "Colors",
+        "Palette",
+        "Earth Tones",
+        "Lime Wash"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Interior design is frequently assaulted by seasonal ‘colors of the year’ engineered to generate obsolescence. But when you are selecting materials for a residence meant to stand for decades, trend-following is an act of aesthetic bankruptcy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Our studio anchors all material palettes in the natural geological spectrum: Warm Ivory (#F7F5F0), Soft Linen Beige (#E9E3D9), Deep Charcoal (#242321), and Earthy Raw Ochre (#A58A70). These shades reflect natural sunlight without distortion and welcome changing seasonal light effortlessly."
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "test-1",
+      "clientName": "Antoine & Sylvie de Montalembert",
+      "clientRole": "Private Art Collectors",
+      "location": "Paris, France",
+      "projectTitle": "The Haussmann Pavilion",
+      "quote": "Atelier Élysée transformed an overwhelming historical apartment into a breathtaking, meditative composition of light and stone. Every morning here feels like an unhurried reverie.",
+      "rating": 5,
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "isFeatured": true,
+      "createdAt": "2025-02-15T00:00:00Z"
+    },
+    {
+      "id": "test-2",
+      "clientName": "Harrison Vance",
+      "clientRole": "Technology Entrepreneur & Patron",
+      "location": "Montecito, California",
+      "projectTitle": "Montecito Coastal Retreat",
+      "quote": "The team did not just redesign our residence; they completely re-imagined how our family gathers and connects with nature. The materials have an enduring, soulful weight.",
+      "rating": 5,
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "isFeatured": true,
+      "createdAt": "2024-12-01T00:00:00Z"
+    },
+    {
+      "id": "test-3",
+      "clientName": "Countess Ginevra d’Aquino",
+      "clientRole": "Heritage Foundation Director",
+      "location": "Palermo, Sicily",
+      "projectTitle": "Palazzo Bellini Restoration",
+      "quote": "Working with Éléonore and her studio was a revelation. They did not just design our home; they resurrected centuries of Mediterranean heritage with peerless sensitivity.",
+      "rating": 5,
+      "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+      "isFeatured": true,
+      "createdAt": "2024-10-18T00:00:00Z"
+    },
+    {
+      "id": "test-4",
+      "clientName": "Julian K.",
+      "clientRole": "Creative Director, Maison de Mode",
+      "location": "New York, USA",
+      "projectTitle": "Lumière Design Studio & Gallery",
+      "quote": "The acoustic warmth, the honest clay plaster, the monolithic oak tables—our clients and team are in awe every single day. A masterclass in commercial elegance.",
+      "rating": 5,
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80",
+      "isFeatured": true,
+      "createdAt": "2025-01-25T00:00:00Z"
+    }
+  ],
+  "enquiries": [
+    {
+      "fullName": "Baroness Caroline de Saint-Germain",
+      "email": "caroline@saint-germain.fr",
+      "phone": "+33 1 45 00 12 34",
+      "serviceRequired": "Residential Interior Design",
+      "estimatedBudget": "€1,000,000 – €2,500,000",
+      "projectLocation": "Avenue Montaigne, Paris",
+      "message": "We wish to redesign our 420m² duplex penthouse overlooking the Eiffel Tower.",
+      "id": "enq-1795376649564",
+      "status": "new",
+      "createdAt": "2026-11-22T19:44:09.564Z"
+    },
+    {
+      "id": "enq-1",
+      "fullName": "Lady Victoria Hastings",
+      "email": "v.hastings@mayfairholdings.co.uk",
+      "phone": "+44 20 7946 0912",
+      "serviceRequired": "Residential Interior Design",
+      "estimatedBudget": "€500,000 – €1,000,000",
+      "projectLocation": "Eaton Square, London",
+      "message": "We have recently acquired a Grade II listed Georgian townhouse overlooking Eaton Square. We admire your balance of historical mouldings and minimalist travertine joinery and would like to commission a full-scope turnkey transformation.",
+      "status": "new",
+      "notes": "Followed up via introductory atelier brochure. Requested architectural floor plan scan.",
+      "createdAt": "2025-03-01T14:22:00Z"
+    },
+    {
+      "id": "enq-2",
+      "fullName": "Maximilian Sterling",
+      "email": "m.sterling@sterlingcap.ch",
+      "phone": "+41 22 819 4000",
+      "serviceRequired": "Commercial Interior Design",
+      "estimatedBudget": "€1,000,000+",
+      "projectLocation": "Geneva Lakefront, Switzerland",
+      "message": "Seeking to design a private family office headquarters on Quai du Mont-Blanc. Requirement for high acoustic seclusion, bespoke walnut conference tables, and private client tasting salon.",
+      "status": "contacted",
+      "notes": "Initial video discovery completed with Julian Vance. Site visit scheduled for April 10.",
+      "createdAt": "2025-02-24T09:15:00Z"
+    }
+  ],
+  "consultations": [
+    {
+      "consultationType": "In-Studio Architectural Discovery",
+      "preferredDate": "2025-05-12",
+      "preferredTime": "14:00",
+      "fullName": "Baroness Caroline de Saint-Germain",
+      "email": "caroline@saint-germain.fr",
+      "phone": "+33 1 45 00 12 34",
+      "projectLocation": "Avenue Montaigne, Paris",
+      "projectScope": "Penthouse duplex complete spatial re-architecture.",
+      "estimatedBudget": "€1,000,000+",
+      "id": "con-1795376649567",
+      "referenceCode": "ELY-2025-5726",
+      "status": "pending",
+      "createdAt": "2026-11-22T19:44:09.567Z"
+    },
+    {
+      "id": "con-1",
+      "referenceCode": "ELY-2025-8491",
+      "consultationType": "In-Studio Architectural Discovery",
+      "preferredDate": "2025-04-15",
+      "preferredTime": "14:00",
+      "fullName": "Sebastien & Chloe Moreau",
+      "email": "chloe.moreau@artcurial.fr",
+      "phone": "+33 6 12 34 56 78",
+      "projectLocation": "Neuilly-sur-Seine, Paris",
+      "projectScope": "Complete re-imagining of a 1920s Art Deco villa (450m²). Reconfiguring ground floor entertaining areas and primary suite.",
+      "estimatedBudget": "€300,000 – €500,000",
+      "status": "confirmed",
+      "createdAt": "2025-03-02T11:45:00Z"
+    },
+    {
+      "id": "con-2",
+      "referenceCode": "ELY-2025-9120",
+      "consultationType": "Virtual Design Advisory",
+      "preferredDate": "2025-04-18",
+      "preferredTime": "16:00",
+      "fullName": "Dr. Aris Thorne",
+      "email": "athorne@stanford.edu",
+      "phone": "+1 650 555 0199",
+      "projectLocation": "Pacific Palisades, California",
+      "projectScope": "Evaluating material palettes and volumetric lighting strategies for a cliffside mid-century post-and-beam restoration.",
+      "estimatedBudget": "€150,000 – €300,000",
+      "status": "pending",
+      "createdAt": "2025-03-04T16:20:00Z"
+    }
+  ],
+  "subscribers": [
+    {
+      "id": "sub-1795376649570",
+      "email": "curator@louvre-heritage.org",
+      "source": "website_footer",
+      "createdAt": "2026-11-22T19:44:09.570Z"
+    },
+    {
+      "id": "sub-1",
+      "email": "collector@parisianarts.com",
+      "source": "website_footer",
+      "createdAt": "2025-01-10T08:00:00Z"
+    },
+    {
+      "id": "sub-2",
+      "email": "elena.rossi@architettura.it",
+      "source": "journal_newsletter",
+      "createdAt": "2025-02-14T19:30:00Z"
+    },
+    {
+      "id": "sub-3",
+      "email": "design@hauteinteriors.ch",
+      "source": "website_footer",
+      "createdAt": "2025-02-28T12:00:00Z"
+    }
+  ]
+}
